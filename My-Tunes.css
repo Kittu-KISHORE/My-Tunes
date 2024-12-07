@@ -1,0 +1,283 @@
+#navigation{
+    border: 1px solid black;
+    background-color: #333333;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    align-items: flex-start;
+    gap: 60px;
+    line-height: 50px;
+    padding-left: 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+  
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px ;
+}
+.effect:hover{
+    background-color: lightgray;
+    transform: scale(1.1 , 1.2);
+    color: #252529;
+   
+}
+
+
+
+#navigator{
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+
+    background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+#conten1{
+    /* border: 10px solid red; */
+    height: 96vh;
+}
+
+.xx{
+    color: aliceblue;
+    font-family: sans-serif;
+
+}
+#A{
+    position: relative;
+    top: 242px;
+    font-weight: 580;
+    font-size: 62px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+#B{
+    position: relative;
+    top: 250px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    
+}
+#C{
+    position: relative;
+    top: 260px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 90px;
+    margin-top: 40px;
+}
+
+
+
+#Music{
+    height:130vh;
+    position: absolute;
+    top: 100vh;
+    left: 0px;
+    width: 100%;
+    /* border: 15px solid red;  */
+    background-color: #252529;
+    /* border-color: #252529; */
+    font-family: sans-serif;
+    margin:0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:flex-start;
+    align-items:center;
+    padding: 32px 0px;
+}
+
+
+
+h1{ 
+    font-size: 40px;
+    font-weight: 200;
+}
+h2{
+    font-size: 32px;
+}
+
+#pmusic1{
+    margin: 20px 370px;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#anchor1{
+    /* border: 1px solid red; */
+    padding: 20px;
+    background-color: #B90415;
+    color: white;
+}
+#pmusic2{
+    margin-top: 40px;
+}
+
+
+#Video{
+    height: 140vh;
+    background-color: #F4F4F4;
+    /* border: 1px solid red; */
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    top: 236.6vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 32px 0px;
+    font-family: sans-serif;
+    
+}
+
+h3{
+    font-size: 32px;
+    color: #333333;
+}
+
+#pvideo1{
+    margin: 20.8px 350px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+
+#anchor2{
+    
+    padding: 20px;
+    background-color: #103063;
+    color: white;
+}
+
+#unknown{
+    /* border: 1px solid red; */
+    height: 52vh;
+    position: absolute;
+    top: 383.5vh;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 32px 0px;
+    font-family: sans-serif;
+    background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    color: #ffffff;
+}
+#uncontent{
+    font-size: 32px;
+    color: #ffffff;
+    
+}
+#punknown{
+    margin: 20.8px 200px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align:center;
+    
+
+}
+#gift_cards{
+    /* border: 1px solid red; */
+    background-color: #F4F4F4;
+    height: 40vh;
+    position: absolute;
+    top: 442vh;
+    left: 0px;
+    padding: 32px 300px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    gap: 20px;
+}
+.unique{
+    width: 100%;
+
+}
+
+#hgift{
+    font-size: 24px;
+    color: #333333;
+    margin: 20px 0px;
+
+}
+#pgift{
+    line-height: 30px;
+    color: #333333;
+    font-size: 16px;
+}
+#pgift2{
+    color: #333333;
+    font-size: 16px;
+}
+#anchor3{
+    color: #103063;
+    font-size: 16px;
+}
+
+
+
+
+#aboutus{
+    /* border: 1px solid red; */
+    background-color: #252529;
+    height: 27.2vh;
+    position: absolute;
+    top: 489vh;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 19px;
+    
+
+}
+
+li{
+    color: #cccccc;
+    font-family: sans-serif;
+    font-size:small;
+    line-height: 20px;
+}
+
+
+
+#last{
+    position: absolute;
+    top: 516vh;
+    width: 98.3%;
+    left: 0px;
+    padding: 16px;
+    background-color: #333333;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
